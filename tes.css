@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Changed from 100vh to center */
+  background: #f0f0f0; /* Changed to a softer background color */
+  font-family: 'Arial', sans-serif; /* Changed font for better appearance */
+}
+
+
+.gif {
+  height: 100%;
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+  color: #e94d58;
+  margin: 15px 0;
+}
+.btn-group {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+button {
+  position: relative; /* Changed from absolute for better layout */
+  width: 150px;
+  height: 50px; /* Set a fixed height */
+  color: white;
+  font-size: 1.2em;
+  border-radius: 25px; /* Adjusted border radius */
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+  border: none; /* Removed border for a cleaner look */
+  transition: background-color 0.3s, transform 0.3s; /* Added transition for effects */
+}
+
+button:nth-child(1) {
+  background: #e94d58;
+  transition: transform 0.3s; /* Added transition for effects */
+}
+button:nth-child(2) {
+  background: #ffffff; /* Changed to a softer white */
+  color: #e94d58;
+  transition: transform 0.3s; /* Added transition for effects */
+}
